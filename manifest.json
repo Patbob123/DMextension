@@ -1,0 +1,11 @@
+{
+    "name": "Tester name",
+    "version": "9001.1",
+    "description": "dk",
+    "manifest_version": 3,
+    "author": "Bringer of pain",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Tester name"
+    }
+}
