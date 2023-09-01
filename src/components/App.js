@@ -1,9 +1,8 @@
-import { Classroom } from './classroom.js';
-import { Notepad } from './notepad.js';
-import { Spotify } from './spotify.js'; 
+import { Classroom } from './Classroom';
+import { Notepad } from './Notepad';
+import { Spotify } from './Spotify'; 
 
-
-function App() {
+export function App() {
     return (
         <div className="absolute">
             ASDASD
@@ -14,6 +13,3 @@ function App() {
     );
 }
 
-const root = ReactDOM.createRoot(document.querySelector('#app'));
-console.log(root)
-root.render(<App />);
